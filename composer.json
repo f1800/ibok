@@ -1,0 +1,29 @@
+{
+    "name": "tianrang/ibok",
+    "description": "a simple webchat and broadcast live built with PHP-Swoole",
+    "keywords": ["php", "swoole", "webchat", "tianrang"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://ibok.cc",
+    "authors": [
+        {
+            "name": "shilei_zhang",
+            "email": "shilei_zhang@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-swoole": "*",
+        "ext-redis": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "*"
+        }
+    }
+}
