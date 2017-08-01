@@ -11,6 +11,7 @@
             "email": "shilei_zhang@163.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
         "ext-swoole": "*",
