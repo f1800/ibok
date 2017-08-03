@@ -1,0 +1,6 @@
+[2017-08-03 16:25:50 *16004.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function connection_info() on null in /vagrant/exercise/ibok.git/vendor/tianrang/ibok/src/ibok/WebSocketServer.php:43
+Stack trace:
+#0 /vagrant/exercise/ibok.git/vendor/tianrang/ibok/src/ibok/Start.php(75): tianrang\ibok\WebSocketServer->sendAll(Object(swoole_websocket_frame), NULL)
+#1 [internal function]: tianrang\ibok\Start->tianrang\ibok\{closure}(Object(tianrang\ibok\WebSocketServer), Object(swoole_websocket_frame))
+#2 /vagr
+[2017-08-03 16:25:50 $16002.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
