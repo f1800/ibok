@@ -1,9 +1,20 @@
 # ibok
 php+swoole，简单的聊天室，直播
 
-## 
+## install composer 安装
+`composer require tianrang/ibok:dev-master`
 
-例子：
+## usage 使用
+* 自动加载 `require './vendor/autoload.php'`
+
+* 配置参数，并实例化 `tianrang\ibok\Start` 类，具体配置参考`src/config.php`
+
+* cli模式运行服务端脚本
+
+* 在浏览器访问客户端脚本
+
+
+## example 例子：
 * composer.json 同级目录下，创建文件 do.php
 
 ```php
@@ -34,7 +45,8 @@ if ($type === 'client') {
 }
 
 ```
-* linux 上运行 do.php
-![avatar](https://static.ishappy.cn/images/server.webchat.png)
-* 浏览器访问 http://XXX.com/do.php?type=client
-![avatar](https://static.ishappy.cn/images/client.webchat.png)
+* linux 上运行 `do.php`
+![聊天服务器](https://static.ishappy.cn/images/server.webchat.png)
+
+* 浏览器访问 `http://XXX.com/do.php?type=client`
+![聊天客户端](https://static.ishappy.cn/images/client.webchat.png)
