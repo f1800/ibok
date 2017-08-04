@@ -1,8 +1,12 @@
 # ibok
 php+swoole，简单的聊天室，直播
 
+## 
+
 例子：
-<?php
+* composer.json 同级目录下，创建文件 do.php
+
+```php
 
 ## composer 自动加载
 require './vendor/autoload.php';
@@ -28,3 +32,9 @@ if ($type === 'server') {
 if ($type === 'client') {
 	$bootstrap->clientRun();
 }
+
+```
+* linux 上运行 do.php
+![avatar](https://static.ishappy.cn/images/server.webchat.png)
+* 浏览器访问 http://XXX.com/do.php?type=client
+![avatar](https://static.ishappy.cn/images/client.webchat.png)
